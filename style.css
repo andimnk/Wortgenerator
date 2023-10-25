@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    text-align: center;
+
+    --primary-color: rgb(255, 94, 0);
+}
+
+.heading {
+    font-size: 46px;
+    color: var(--primary-color);
+    margin: 70px;
+}
+
+.word{
+    margin: 0 0 64px 0;
+    font-size: 38px;
+}
+
+.previousWord{
+    color: rgb(110, 110, 110);
+    line-height: 24px;
+    font-weight: 600;
+    max-width: 500px;
+    margin: 48px auto 0;
+}
+
+.oldWords{
+    font-weight: 400;
+}
+
+.button{
+    padding: 18px 66px;
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(181, 66, 0);
+}
+
